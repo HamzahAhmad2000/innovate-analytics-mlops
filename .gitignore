@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.env
+.idea/
+.vscode/
+mlruns/
+.dvc/cache/
+# data/raw/ # Initially track pointer files, not the raw data itself if large
+# data/processed/ # Tracked by DVC
+venv/
+*.egg-info/
+models/
+jenkins_home/ # If running Jenkins locally and mapping volume here
+airflow_home/ # If mapping Airflow volume here
+*.log
+*.swp 
