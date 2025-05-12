@@ -1,0 +1,15 @@
+pandas
+scikit-learn>=1.0
+mlflow>=1.20
+dvc[all]>=2.0
+# Choose one API framework:
+# flask
+fastapi
+uvicorn[standard] # If using FastAPI
+gunicorn # For running Flask/FastAPI in production
+pytest
+flake8
+python-dotenv
+apache-airflow>=2.2 # Use a specific version
+boto3 # For potential S3 integration later
+joblib # For saving sklearn models 
